@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshith Doppalapudi - Data Analyst & ML Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="#home">HD</a></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#connect">Connect With Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section landing">
+        <div class="landing-content">
+            <img src="Harshith photo.jpg" alt="Harshith Doppalapudi's professional headshot" class="headshot">
+            <h1>Harshith Doppalapudi</h1>
+            <p>
+                <span class="typing" id="role"></span>
+            </p>
+            <p class="tagline">Turning Data into Insights</p>
+            <button class="cta-button" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">See My Work</button>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Hi, I’m Harshith Doppalapudi, a passionate Data Analyst and Machine Learning Enthusiast. I specialize in uncovering insights from data and building intelligent models to solve real-world problems.</p>
+            <p>I’m driven by a curiosity for data and a love for creating impactful solutions. When I’m not analyzing datasets, you’ll find me exploring new tools or diving into the latest advancements in AI.</p>
+            <div class="about-details">
+                <p><i class="fas fa-graduation-cap"></i> B.Tech in Computer Science</p>
+                <p><i class="fas fa-heart"></i> Interests: AI, Data Visualization, Tech Innovation</p>
+            </div>
+            <a href="Harshith Doppalapudi Resume.pdf" download class="resume-button">Download My Resume</a>
+        </div>
+    </section>
+
+    <section id="education" class="section education">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-item pop-up">
+                <div class="education-header">
+                    <h3>Indiana University Bloomington</h3>
+                    <p class="education-date">August 2023 – May 2025</p>
+                </div>
+                <div class="education-details">
+                    <p>Master’s in Data Science</p>
+                    <p class="education-cgpa">CGPA: 3.7/4</p>
+                </div>
+            </div>
+            <div class="education-item pop-up">
+                <div class="education-header">
+                    <h3>Amrita Vishwa Vidyapeetham</h3>
+                    <p class="education-date">June 2019 – May 2023</p>
+                </div>
+                <div class="education-details">
+                    <p>Bachelor’s in Computer Science and Engineering</p>
+                    <p class="education-cgpa">CGPA: 3.5/4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section experience">
+        <h2>Experience</h2>
+        <div class="experience-content">
+            <div class="experience-item pop-up">
+                <div class="experience-header">
+                    <h3>Research Data Analys</h3>
+                    <p class="experience-date">January 2025 – Present</p>
+                </div>
+                <div class="experience-details">
+                    <p><strong>Indiana University Bloomington</strong></p>
+                </div>
+                <ul>
+                    <li>Developed a GPT-4o mini chatbot with poisoned data and circulated it via Qualtrics to 1,000 users, collecting interaction 
+                        data to study phishing behaviour.</li>
+                    <li>Analysed interaction data using Python, identifying a 42% engagement rate with deceptive content and high-risk 
+                        behavioural groups.</li>
+                    <li>Segmented user risk profiles with clustering techniques, enabling strategies that reduced phishing susceptibility by 25% in 
+                        follow-up tests.</li></ul>
+            </div>
+            <div class="experience-item pop-up">
+                <div class="experience-header">
+                    <h3>Geospatial AI Researcher</h3>
+                    <p class="experience-date">January 2025 – Present</p>
+                </div>
+                <div class="experience-details">
+                    <p><strong>Kelley School of Business</strong></p>
+                </div>
+                <ul>
+                    <li>Engineered CNN, U-Net, and ResNet models in PyTorch for unauthorized land use detection, achieving 95% segmentation 
+                        accuracy using hyperspectral, multispectral, SAR, and DSM imagery on High-Performance Computing (BigRed 200).</li> 
+                    <li>Tackled multi-modal data integration by developing a fusion framework combining four satellite image types, boosting 
+                        classification accuracy by 18% and improving detection of critical changes in high-risk areas.</li> 
+                    <li>Refined UMAP and PCA for dimensionality reduction, cutting computational costs by 35% while enhancing anomaly 
+                        detection and preserving key spatial patterns for improved geospatial intelligence analysis.</li>
+                </ul>
+            </div>
+            <div class="experience-item pop-up">
+                <div class="experience-header">
+                    <h3>Machine Learning Research Assistant</h3>
+                    <p class="experience-date">September 2024 – Present</p>
+                </div>
+                <div class="experience-details">
+                    <p><strong>Kelley School of Business</strong></p>
+                </div>
+                <ul>
+                    <li>Analysed high-dimensional network intrusion packet datasets, applying UMAP dimensionality reduction and feature 
+                        engineering to enhance data interpretability and achieve a 20% improvement in anomaly detection accuracy.</li> 
+                        <li>Built and evaluated ML (Decision Tree, Random Forest, XGBoost, SVM) and DL (DNN, auto-encoder) models, achieving 
+                        99.8% accuracy and enhanced robustness against perturbations. </li>
+                        <li>Designed reinforcement learning agents to perturb classifier inputs and restore perturbed data to original values, improving 
+                        model resilience and providing actionable insights into sophisticated attack patterns.</li> 
+                        <li>Collaborated with cross-functional teams under Ankit to translate complex cybersecurity findings into actionable business 
+                        insights, driving a 25% improvement in decision-making accuracy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card pop-up">
+                <img src="Politician tweet analysis.jpeg" alt="Project 1 thumbnail">
+                <div class="project-content">
+                    <h3>Politician-Tweet-Analysis</h3>
+                    <p>A data analysis project analyzing the US politician tweets using NLP.</p>
+                    <div class="project-tools">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fas fa-cogs"></i> NLP</span>
+                        <span><i class="fas fa-chart-bar"></i> Power BI</span>
+                    </div>
+                    <a href="https://github.com/D-Harshith/US-Politician-Tweet-Analysis.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-card pop-up">
+                <img src="SQL chatbot.jpeg" alt="Project 3 thumbnail">
+                <div class="project-content">
+                    <h3>SQL Chatbot with Automated Visualization</h3>
+                    <p>AI-powered chatbot that allows users to query a SQL database using natural language questions.</p>
+                    <div class="project-tools">
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fas fa-link"></i> LangChain</span>
+                        <span><i class="fas fa-robot"></i> OpenAI</span>
+                    </div>
+                    <a href="https://github.com/D-Harshith/AI-Powered-SQL-Chatbot-with-Automated-Visualization.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-card pop-up">
+                <img src="911.png" alt="Project 4 thumbnail">
+                <div class="project-content">
+                    <h3>Analysis-of-911-emergency-calls-in-Baltimore-city</h3>
+                    <p>Analyzed 911 emergency call data in Baltimore to identify patterns and trends.</p>
+                    <div class="project-tools">
+                        <span><i class="fas fa-code"></i> R</span>
+                        <span><i class="fas fa-chart-line"></i> ggplot2</span>
+                        <span><i class="fas fa-chart-bar"></i> Power BI</span>
+                    </div>
+                    <a href="https://github.com/D-Harshith/Analysis-of-911-emergency-calls-in-Baltimore-city.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-card pop-up">
+                <img src="Multi agent.jpeg" alt="Project 6 thumbnail">
+                <div class="project-content">
+                    <h3>Procurement-Multi-Agent-System</h3>
+                    <p>Developed a multi-agent system for procurement processes using AI techniques.</p>
+                    <div class="project-tools">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fas fa-robot"></i> AI Agents</span>
+                        <span><i class="fas fa-robot"></i> OpenAI</span>
+                    </div>
+                    <a href="https://github.com/D-Harshith/Procurement-Multi-Agent-System.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-card pop-up">
+                <img src="Super store.png" alt="Project 5 thumbnail">
+                <div class="project-content">
+                    <h3>Superstore-sales-analysis</h3>
+                    <p>Performed sales analysis for a superstore to derive business insights and trends.</p>
+                    <div class="project-tools project-tools-centered">
+                        <span><i class="fas fa-file-excel"></i> Excel</span>
+                        <span><i class="fas fa-chart-bar"></i> Tableau</span>
+                    </div>
+                    <a href="https://github.com/D-Harshith/Superstore-sales-analysis.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-card pop-up">
+                <img src="Power BI.png" alt="Project 7 thumbnail">
+                <div class="project-content">
+                    <h3>Sales Insight prediction using Power BI</h3>
+                    <p>Visualized sales data with interactive dashboards for business insights.</p>
+                    <div class="project-tools project-tools-centered">
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fas fa-chart-bar"></i> Power BI</span>
+                    </div>
+                    <a href="https://github.com/D-Harshith/Sales-insight-prediction.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/D-Harshith" target="_blank" class="github-link">View More Projects on GitHub</a>
+    </section>
+
+    <section id="skills" class="section skills">
+        <h2 class="text-white text-3xl font-bold text-center mb-8">My Skills</h2>
+        <div class="skills-grid grid grid-cols-3 gap-x-6 justify-items-center auto-rows-min">
+            <!-- Column 1 -->
+            <!-- Languages & Tools -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-1 row-start-1 row-span-2">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">Languages & Tools</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Python</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">R</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">SQL</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Turtle</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Git/GitHub</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">SMSS</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Google Sheets</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Jupyter Notebooks</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">PowerPoint</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Libraries -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-1 row-start-3 row-span-2 mb-[1px]">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">Libraries</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Scikit-learn</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">TensorFlow</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">PyTorch</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Keras</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">HuggingFace</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">spaCy</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">NLTK</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Pandas</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">NumPy</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Matplotlib</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Seaborn</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Column 2 -->
+            <!-- ML & Modeling -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-2 row-start-1 row-span-3 mb-[1px]">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">ML & Modeling</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Linear Regression</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Logistic Regression</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Decision Trees</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Random Forest</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">AdaBoost</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">K-Means</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">PCA</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Gradient Boosting</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Supervised Learning</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Unsupervised Learning</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Classification</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Autoencoders</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">SVM</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">CNN</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">LSTM</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">MobileNet</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">BERT</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Statistics -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-2 row-start-4">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">Statistics</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">A/B Testing</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Hypothesis Testing</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">ANOVA</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Chi-Square</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Causal Inference</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Column 3 -->
+            <!-- Visualization & BI -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-3 row-start-1">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">Visualization & BI</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Power BI</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Tableau</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Excel</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- GenAI -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-3 row-start-2">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">GenAI</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">LangChain</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">OpenAI API</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Prompt Engineering</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">RAG Pipelines</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">LLMs (BERT, GPT)</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NLP & Text Processing -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-3 row-start-3">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">NLP & Text Processing</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">BERT (NLP)</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">TF-IDF</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Sentiment & Emotion Prediction</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Soft Skills & Methodologies -->
+            <div class="skill-card w-full max-w-[300px] transition-transform transform hover:scale-105 col-start-3 row-start-4">
+                <div class="skill-content bg-gray-800 rounded-lg shadow-lg p-[1px]">
+                    <h3 class="text-white text-lg font-semibold mb-4 font-montserrat">Soft Skills & Methodologies</h3>
+                    <div class="skill-tags space-y-3">
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Troubleshooting</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Problem Solving</span>
+                            <span class="stars text-purple-500">★★★★★</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Research & Documentation</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Stakeholder Communication</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Cross-Cultural Collaboration</span>
+                            <span class="stars text-purple-500">★★★☆☆</span>
+                        </div>
+                        <div class="skill-item flex justify-between items-center">
+                            <span class="text-white font-roboto">Prototyping & Feedback</span>
+                            <span class="stars text-purple-500">★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect" class="section connect">
+        <h2>Connect With Me</h2>
+        <div class="connect-content">
+            <form class="contact-form" action="mailto:harshithdoppalapudi@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="connect-links">
+                <p><a href="mailto:harshithdoppalapudi@gmail.com"><i class="fas fa-envelope"></i> harshithdoppalapudi@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/doppalapudi-harshith-27abd/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+                <p><a href="https://github.com/D-Harshith" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
